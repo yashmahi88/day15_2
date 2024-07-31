@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout SCM') {
             steps {
-                git url: 'https://github.com/yashmahi88/day15_2.git', branch: 'main'
+                git url: 'https://github.com/yashmahi88/day15_2.git', branch: 'master'
             }
         }
 
